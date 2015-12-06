@@ -25,3 +25,33 @@ rm - Deletes file
 help - Provides list of commands
 
 #1.4 Forking and Cloning Reflection
+The instructions on this challenged were pretty good and simple enough to follow. My instructions for a new person on how to do the following are going to be very similar.
+
+How to create a new repo.
+
+Log onto GitHub and navigate to your profile
+On the upper right-hand side of the navbar is a "+", click it and choose "New Repository".
+Name your repository and add a description if you'd like.
+Choose whether or not this a public or private repository.
+Add a license if necessary.
+Hit "Create Repository"
+Profit.
+How to fork a repo.
+
+Navigate to the repo you'd like to fork.
+On the upper right-hand part of the site under your profile photo is the "Fork" button, hit it.
+Choose where to fork this repo, probably to yourself.
+Profit.
+How to clone a repo. I assume this is to be done on the command line.
+
+Navigate to the repo to be cloned.
+Locate the HTTPS link and copy.
+Open up Terminal.
+Navigate to the directory where you're repo will live.
+Type "git clone [PASTE HTTPS LINK HERE]" without the square brackets.
+Profit.
+Forking a repo gives you access to all the code and files in the repo. If you aren't a contributor then you likely don't have write access to the files and can't make changes. Forking gives you your own version to work on and doesn't affect the master project. I assume people fork repos rather than create new ones to gain access to the project rather than start from scratch.
+
+ 
+
+Setting up git and GitHub were actually a lot less troublesome than I initially thought they would be. The instructions were clear and simple. I learned how to create repos, fork repos, and clone repos. Rather than struggling with the set up, I believe getting used to actually using git and GitHub will be the bigger challenge.
