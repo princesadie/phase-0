@@ -1,1 +1,0 @@
-![Image of Prince Sadie's site-map](/site-map.png)
