@@ -17,4 +17,4 @@ I actually threw out several wireframes before settling on a simpler design.
 I went and looked up what popular grid templates are being used now and found several for the Bootstrap and MaterialCSS frameworks. I've played around with these two in the past and really liked them.
 
 #Which parts of the challenge did you enjoy and which parts did you find tedious?
-As usual I really enjoyed using the command line. It just feels good to use and know that I actually understand what's I'm doing in it (so far). I found wireframing to be kind of boring.
+As usual I really enjoyed using the command line. It just feels good to use and know that I actually understand what's I'm doing in it (so far). I found wireframing to be kind of boring, but I do understand its merits.
