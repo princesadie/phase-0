@@ -1,0 +1,148 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  color:#000080;
+  background-color:#ffffff;
+  font-family: "Times New Roman", serif, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+.bigger {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.smaller {
+  font-size: 12px;
+}
+
+h1 {
+ font-size: 16px;
+ margin: 0;
+ padding: 0;
+}
+
+h2 {
+ margin: 0;
+ padding: 0;
+ font-size: 14px;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+a:link{
+  color:#800080;
+}
+
+a:visited{
+  color:#ff0000;
+}
+
+ul li {
+  margin: 0 0 25px 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.left-column {
+  margin: 0 -50px 20px 100px;
+  padding: 0;
+  display: inline;
+  float: left;
+  width: 40%;
+}
+
+.right-column {
+  margin: 0 0 0 0;
+  padding: 0 -150px 0 0;
+  display: inline;
+  float: right;
+  width: 40%;
+}
+
+footer {
+  display: block;
+  clear: both;
+}
+
+.linebreak {
+  margin: 25px 0 25px 0;
+  display: block;
+  height: 1px;
+  background-color: #7A7A7A;
+}
+
+.img {
+  margin: auto;
+  width: 100px
+}
+
+.center {
+  text-align: center;
+  font-size: 8px;
+  margin: 0;
+}
+
+.footer {
+  font-size: 12px;
+}
+
+.copyright {
+  font-size: 8px;
+}
+
+.disclaimer {
+  font-size: 14px;
+}
+
+.date {
+  display: block;
+  font-size: 10px;
+}
+
+.profile-photo img {
+  margin: 25px 0 0 0;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.header {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #f6f6f6;
+  box-shadow: 0 0 2px rgba(0,0,0,0.10), 0 1px 1px rgba(0,0,0,0.15);
+}
+
+/*
+-What is important to know when linking an external file (like a stylesheet) to an HTML file?
+  It's extremely important to know the location of the external file relative to the HTML file.
+  Get that path right!
+
+-What tricks did you use to help with positioning? How hard was it to get the site as you wanted it?
+  It was super annoying to try and get the two columns of links to position correctly.
+  We had to play around with the paddings and margins for almost half the session. 
+  We were all over the margins and paddings trying to get things just right.
+  The solution we came up with was to split the two columns into two <UL> and add a class to each.
+  My partner and I then manipulated those classes.
+
+-What CSS did you use to modify element style?
+  Quite a few and they are:
+  font-size, background-color, color, font-family, margin, padding, display, width, height, box-shadow, and text-alin.
+
+-Did you modify HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know
+  which one to add to your HTML?
+  We made heavy use of classes and provided classes to each element we had to style. We chose classes because there were
+  several elements that required the same styling and it would've been redundant to use IDs for them.
+
+-When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+  Definitely believe that we had better, cleaner, and code that followed best practices. They had inline styling which made the page
+  difficult to read and frankly just not fun to read.
+*/
