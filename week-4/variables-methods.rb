@@ -39,3 +39,9 @@ puts favorite_number.to_s + " is nice, but " + bigger_better.to_s + " is bigger 
 
 #What was confusing about this material? What made sense?
 #I didn't think there was too much confusing stuff about this material. Most of it made sense and only really had trouble with the "address" part of the section. I kept trying to "puts" the output rather than "return" it.
+
+#Link to Math Solution
+#https://github.com/princesadie/phase-0/blob/master/week-4/math/my_solution.rb
+
+#Link to Address Solution
+#https://github.com/princesadie/phase-0/blob/master/week-4/address/my_solution.rb
