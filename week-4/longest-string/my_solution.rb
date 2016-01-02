@@ -15,6 +15,8 @@
 def longest_string(list_of_words)
   if list_of_words == ''
   	return ''
+  elsif list_of_words == []
+  	return nil
   else
   	list_of_words.sort! { |a,b| b.length <=> a.length }
   	return list_of_words[0]

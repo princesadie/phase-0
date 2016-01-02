@@ -14,6 +14,8 @@
 def shortest_string(list_of_words)
   if list_of_words == ''
   	return ''
+  elsif list_of_words == []
+  	return nil
   else
   	list_of_words.sort! { |a,b| a.length <=> b.length }
   	return list_of_words[0]
