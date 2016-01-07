@@ -21,13 +21,3 @@ def smallest_integer(list_of_nums)
   	return list_of_nums[0]
   end
 end
-
-def smallest_integer(list_of_nums)
-	if list_of_nums == []
-		return nil
-	elsif list_of_nums == 0
-		return 0
-	else
-		
-	end
-end
