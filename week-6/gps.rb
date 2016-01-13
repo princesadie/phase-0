@@ -2,7 +2,7 @@
 # 1) Prince Sadie
 # 2)
 
-# We spent [#] hours on this challenge.
+# We spent [1.2] hours on this challenge.
 
 # Bakery Serving Size portion calculator.
 
@@ -63,4 +63,26 @@ p serving_size_calc("cookie", 10)
 p serving_size_calc("THIS IS AN ERROR", 5)
 
 #  Reflection
+=begin
+Q: What did you learn about making code readable by working on this challenge?
+A: I learned that proper naming of variables and arguments really helps out a lot
+especially when the code starts getting larger and larger. Also writing things in such
+a way to make them intuitive would be great. I had issues with the error checking and the
+switch statement.
 
+Q: Did you learn any new methods? What did you learn about them?
+A: It wasn't so much as learning new methods, but reinstilling them in my head. They're still
+so new to me that I have trouble recalling them and implementing them properly without using
+the docs. I'm certain this'll be something I can remedy with time and experience.
+
+Q: What did you learn about accessing data in hashes? 
+A: Basically that hashes are paired as keys and values. That hashes were conceived with the idea
+of not having a specific order like arrays were in earlier versions of ruby. My guide informed me of this.
+
+Q: What concepts were solidified when working through this challenge?
+A: Iteration, iteration, iteration. And accessing hashes. I realized just how important it is to
+have the most used methods like ".each", ".include?", and other basic concepts of Ruby down in
+order to have a better flow. I had to stop many times during the session to think about basic concepts.
+
+  
+=end
