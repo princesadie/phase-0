@@ -89,7 +89,7 @@ class BingoBoard
       p @bingo_board[i]
       i += 1
     end
-    puts "Rolled #{@letter}#{@number} #{@index}"
+    puts "Rolled #{@letter}#{@number}"
   end
 
   def run
@@ -138,6 +138,6 @@ Q: How did you determine what should be an instance variable versus a local vari
 A: If I needed to use a given variable multiple times in different methods, then I made an instance variable otherwise it stayed local.
 
 Q: What do you feel is most improved in your refactored solution?
-A: 
+A: I felt in terms of readability and function, my initial solution was sufficient for my MVP so I didn't further refactor in this case.
 =end
  
