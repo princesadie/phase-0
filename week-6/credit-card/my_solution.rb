@@ -66,7 +66,7 @@ class CreditCard
     raise ArgumentError.new("Need 16 digit number") if @number.length != 16
   end
   
-  def check_card
+  def sum
     @evens = @number.select.each_with_index { |_, i| i.even? }
     @odds = @number.select.each_with_index { |_, i| i.odd? }
     @doubled_evens = @evens.map { |i| i.to_i * 2 }
@@ -74,14 +74,15 @@ class CreditCard
     @total = @doubled_evens.join + @odds.join
     @total_array = @total.split("")
     @total_array.map! { |i| i.to_i }
-    @sum = @total_array.inject { |sum,i| sum + i }
-
-    if @sum % 10 == 0
+    sum = @total_array.inject { |sum,i| sum + i }
+  end
+  
+  def check_card
+    if sum % 10 == 0
       return true
     else 
       return false
     end
-    
   end
 end
 
