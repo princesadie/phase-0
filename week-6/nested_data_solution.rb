@@ -86,3 +86,18 @@ p name_generator(startup_names)
 # We tried refactoring with the #each_with_index method, but couldn't abstract the code to work with n number of levels. Instead, everything we wrote required that we know our position in the array. 
 
 # Is there a method we can use, or a way to refactor this so it can loop through infinite arrays and do the + "ly" logic on all of the items in n arrays? 
+
+#REFLECTION
+=begin
+Q: What are some general rules you can apply to nested arrays?
+A: I would to always be aware of your location in the array. Having this knowledge is crucial to working with nested arrays,
+it's so easy to get lost in there for a newbie like me.
+
+Q: What are some ways you can iterate over nested arrays?
+A: The first thing that comes to my mind when iterating over nested arrays is to check whether or not an element is an array.
+If an element is an array, then expect to iterate over that deeper array, and so on... It's a lot of repeats.
+
+Q: Did you find any good new methods to implement or did you re-use one you were already familiar with? What was it and why did you decide that was a good option?
+A: I re-used methods I was already familiar with. In this case because the nested arrays were simple enough
+  to deal with using "is_a?" and "map!". Researching a better way to do this is on my to-do list.
+=end
