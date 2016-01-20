@@ -104,7 +104,7 @@ end
 
 def states
   STATE_DATA.each do |state, value|
-    state = VirusPredictor.new(state, STATE_DATA[state]   [:population_density], STATE_DATA[state][:population])
+    state = VirusPredictor.new(state, STATE_DATA[state][:population_density], STATE_DATA[state][:population])
     state.virus_effects
   end
 end
