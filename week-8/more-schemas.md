@@ -1,11 +1,9 @@
 # ONE-TO-ONE SCHEMA
-![one-to-one schema](imgs/one-to-one-schema.png =400x)<br />
-<img src="imgs/one-to-one-schema.png" width="400px" />
+<img src="imgs/one-to-one-schema.png" width="400px" /><br />
 This is a one-to-one relationship because a home, generally, has one group of residents that reside in it.
 
 # MANY-TO-MANY SCHEMA
-![many-to-many-schema](imgs/many-to-many-schema.png =400x)
-
+<img src="imgs/many-to-many-schema.png" width="400px" /><br />
 #REFLECTION
 ###What is a one-to-one database?
 A one-to-one database is a database in which a row of a table is linked to one and only one other in another table.
