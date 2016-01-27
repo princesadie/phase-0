@@ -1,5 +1,6 @@
 # ONE-TO-ONE SCHEMA
 ![one-to-one schema](imgs/one-to-one-schema.png =400x)<br />
+<img src="imgs/one-to-one-schema.png" width="400px" />
 This is a one-to-one relationship because a home, generally, has one group of residents that reside in it.
 
 # MANY-TO-MANY SCHEMA
