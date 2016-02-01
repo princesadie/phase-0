@@ -263,12 +263,25 @@ for (var winner in tObject) {
 
 // __________________________________________
 // Reflection
+/*
+Q: What did you learn about iterating over nested objects in JavaScript?
+A: It's flippin hard. Our approach was like smashing through wall after wall of issues.
+   It was mainly me being a drag for my partner I think. I felt like I produced very little
+   and the burden fell mostly on my partner. We used for..in loops and bracket notation for positioning.
+
+Q: Were you able to find useful methods to help you with this?
+A: We used for..in loops and the '.hasOwnProperty' method. We also used a snippet from stackoverflow
+   because we had such a difficult time counting elements in an object.
+
+Q: What concepts were solidified in the process of working through this challenge?
+A: It was my first time using for..in and .hasOwnProperty. I'm not sure if anything major
+   was solidified for me personally. I'm going through the refactoring again from scratch
+   on my own actually to see if I can come up with a solution I'm satisfied with.
 
 
 
 
-
-
+*/
 // __________________________________________
 // Test Code:  Do not alter code below this line.
 
