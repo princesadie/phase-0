@@ -276,7 +276,8 @@ A: We used for..in loops and the '.hasOwnProperty' method. We also used a snippe
 Q: What concepts were solidified in the process of working through this challenge?
 A: It was my first time using for..in and .hasOwnProperty. I'm not sure if anything major
    was solidified for me personally. I'm going through the refactoring again from scratch
-   on my own actually to see if I can come up with a solution I'm satisfied with.
+   on my own actually to see if I can come up with a solution I'm satisfied with. This relfection
+   is barebones because I'm against the clock with this atm.
 
 
 
