@@ -84,6 +84,8 @@ var average = function(scores_array) {
   return final;
 }
 
+console.log(gradebook);
+
 
 
 
